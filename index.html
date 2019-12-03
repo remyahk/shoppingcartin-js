@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Smart Shopping</title>
+    <!-- fontawesome -->
+
+    <script
+      src="https://kit.fontawesome.com/1e7321daf0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav-bar">
+      <div class="nav-center">
+        <span class="nav-icon"><i class="fas fa-bars"></i></span>
+        <img src="logo.png" />
+        <div class="cart-btn">
+          <span class="nav-icon"> <i class="fas fa-shopping-cart"></i></span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+    <!-- Header start -->
+    <header class="header_image">
+      <div class="banner">
+        <h1 class="banner-title">Electronics Best Buy</h1>
+        <button class="banner-btn">ShopNow</button>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Section product start -->
+    <section class="section-product">
+      <div classs="product-title">
+        <h2>Our Products</h2>
+      </div>
+      <div class="productitems">
+        <!-- singleproduct -->
+
+        <!-- end of singleproduct -->
+      </div>
+    </section>
+    <!-- section product -end -->
+
+    <!-- cart-item-calc -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close"><i class="fas fa-window-close"></i></span>
+        <h2>Your Cart</h2>
+
+        <div class="cart-content"></div>
+        <!-- end of cart item adding -->
+        <div class="cart-footer">
+          <h3>Your Total : $ <span class="carttotal">0</span></h3>
+          <button class="clearcart btn-clear">Clear Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of cart-item-calc -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
